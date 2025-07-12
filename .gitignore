@@ -1,0 +1,7 @@
+token.json
+approved.json
+history.json
+src/__pycache__
+Dockerfile
+images
+.env

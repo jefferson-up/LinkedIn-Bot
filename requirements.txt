@@ -1,0 +1,8 @@
+requests
+oauthlib
+openai
+feedparser  
+typer
+python-dotenv
+python-dateutil
+PyYAML

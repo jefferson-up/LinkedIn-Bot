@@ -1,0 +1,101 @@
+profile:
+  name: "Jefferson Barbosa"
+  headline: "Desenvolvedor Back-end"
+  specialties:
+    - Python
+    - Microservices
+    - REST APIs
+    - Asyncio
+
+settings:
+  max_articles_per_theme: 3
+  posts_per_article: 3
+
+themes:
+  - name: "Boas práticas REST"
+    description: "Dicas e padrões para construir APIs RESTful robustas."
+    rss_feeds:
+      - https://www.programmableweb.com/rss
+      - https://nordicapis.com/feed/
+      - https://restfulapi.net/feed/
+    keywords:
+      include:
+        - REST
+        - HTTP verb
+        - status code
+      exclude:
+        - SOAP
+    post_template: |
+      🚀 **{title}**
+      {summary}
+      Leia mais em: {link}
+      #REST #APIs #BackEnd
+
+  - name: "Async em Python"
+    description: "Recursos e tutoriais sobre programação assíncrona em Python."
+    rss_feeds:
+      - https://pythoninsider.blogspot.com/feeds/posts/default
+      - https://realpython.com/atom.xml
+      - https://testdriven.io/blog/
+    keywords:
+      include:
+        - asyncio
+        - await
+        - performance
+      exclude:
+        - sync
+    post_template: |
+      ⚡️ **{title}**
+      {summary}
+      Link: {link}
+      #Python #Asyncio #Performance
+
+  - name: "Tech News Global"
+    rss_feeds:
+      - https://feed.infoq.com/
+      - https://thenewstack.io/feed/
+      - https://www.theverge.com/rss/index.xml
+      - https://www.wired.com/feed/rss
+      - https://arstechnica.com/feed/
+      - https://dev.to/feed/tag/python
+      - https://realpython.com/atom.xml
+      - https://news.ycombinator.com/rss
+      - https://pythoninsider.blogspot.com/feeds/posts/default
+      - https://testdriven.io/blog/
+      - https://www.zdnet.com/news/rss.xml
+      - https://www.cnet.com/rss/all/
+      - https://venturebeat.com/feed/
+      - https://mashable.com/feed/
+      - https://thenextweb.com/feed/
+      - https://feed.infoq.com/                     
+      - https://thenewstack.io/feed/                
+      - https://www.theverge.com/rss/index.xml      
+      - https://www.wired.com/feed/rss             
+      - https://arstechnica.com/feed/               
+      - https://news.ycombinator.com/rss            
+      - https://venturebeat.com/feed/               
+      - https://mashable.com/feed/                  
+      - https://testdriven.io/blog/feed.xml         
+      - https://realpython.com/atom.xml             
+      - https://dev.to/feed/tag/python            
+      - https://pythoninsider.blogspot.com/feeds/posts/default  
+      - https://www.zdnet.com/news/rss.xml         
+      - https://www.cnet.com/rss/all/              
+      - https://thenextweb.com/feed/               
+    keywords:
+      include:
+        - tech
+        - startup
+        - AI
+        - cloud
+        - cybersecurity
+        - innovation
+      exclude:
+        - deal
+        - sale
+        - discount
+    post_template: |
+      🌐 **{title}**
+      {summary}
+      Saiba mais em: {link}
+      #TechNews #Inovação #AI #Cloud
