@@ -124,6 +124,8 @@ linkedin-bot/
     ├── generator.py    # gera sugestões de post com OpenAI
     ├── cli.py          # CLI interativo de aprovação
     └── poster.py       # publica no LinkedIn via API
+
+```
 ---
 
 ## Contribuições
