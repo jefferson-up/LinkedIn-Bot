@@ -109,21 +109,21 @@ Ajuste `config/themes.yaml` para:
 
 ## Estrutura do Projeto
 
+```text
 linkedin-bot/
-├── .env.example      # modelo de variáveis de ambiente
-├── token.json        # seu token OAuth 2.0 manual
-├── history.json      # links já processados (auto gerado)
-├── approved.json     # saída do CLI de aprovação
-├── requirements.txt
+├── .env.example        # modelo de variáveis de ambiente
+├── token.json          # seu token OAuth 2.0 manual
+├── history.json        # links já processados (auto gerado)
+├── approved.json       # saída do CLI de aprovação
+├── requirements.txt    # dependências Python
 ├── config/
-│   └── themes.yaml   # perfis, temas e RSS feeds
+│   └── themes.yaml     # perfil, temas e RSS feeds
 └── src/
-    ├── fetcher.py    # busca artigos nos feeds
-    ├── generator.py  # gera sugestões de post com OpenAI
-    ├── cli.py        # fluxo interativo e aprovação
-    ├── poster.py     # publica no LinkedIn via API
-    └── auth.py       # obtém token de `token.json`
-
+    ├── auth.py         # carrega token de token.json
+    ├── fetcher.py      # coleta artigos dos RSS feeds
+    ├── generator.py    # gera sugestões de post com OpenAI
+    ├── cli.py          # CLI interativo de aprovação
+    └── poster.py       # publica no LinkedIn via API
 ---
 
 ## Contribuições
